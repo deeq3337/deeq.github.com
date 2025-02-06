@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natiijada Imtixaanka</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1><a class="logo-text" href="#">Darajuuni</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/home.html">home</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">about</a></li>
+                <li><a class="contact-btn" href="#">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="result-container">
+            <h2>Natiijada Imtixaanka - Ethics</h2>
+            <form id="ethicsForm">
+                <label for="ethicsID">Geli Lambarka Diiwaangalinta:</label>
+                <input type="text" id="ethicsID" name="ethicsID" required>
+                <button type="submit">Raadi Natiijada</button>
+            </form>
+            <div id="ethicsResult"></div>
+        </div>
+
+        <div class="result-container">
+            <h2>Natiijada Imtixaanka - Programming</h2>
+            <form id="programmingForm">
+                <label for="programmingID">Geli Lambarka Diiwaangalinta:</label>
+                <input type="text" id="programmingID" name="programmingID" required>
+                <button type="submit">Raadi Natiijada</button>
+            </form>
+            <div id="programmingResult"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('ethicsForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const studentID = document.getElementById('ethicsID').value;
+            // Fetch or process Ethics results based on studentID and display in ethicsResult div
+             // Placeholder - Replace with your actual logic
+            document.getElementById('ethicsResult').innerHTML =  "Result for Ethics: " + studentID + " (Replace with actual data)";
+        });
+
+        document.getElementById('programmingForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const studentID = document.getElementById('programmingID').value;
+            // Fetch or process Programming results and display in programmingResult div
+            // Placeholder - Replace with your actual logic
+            document.getElementById('programmingResult').innerHTML = "Result for Programming: " + studentID + " (Replace with actual data)";
+
+        });
+    </script>
+</body>
+</html>

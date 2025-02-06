@@ -1,0 +1,173 @@
+
+
+
+.container {
+   margin: 50px auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+   max-width: fit-content;
+   text-align: center;
+   justify-content: center;
+   
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5efef;
+    display: none;
+}
+.container h1{
+    color: #ffffff;
+    background-color: #1771d1;;
+    
+}
+
+.header{
+background-color: aliceblue;
+    border: #1771d1;
+   max-width: 90vw;
+   margin: 10px   auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+    
+}    
+    
+
+nav{ 
+    
+    flex-basis: 40%;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(42, 63, 253);
+    font-size: 1.3rem;
+    padding: 15px;
+    margin-right: 8px;
+}
+.logo{
+   border: #1771d1;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+   
+
+}
+nav ul li a:hover{
+    background-color: #e0c9c9;
+    color: black;
+    border: #1771d1;
+    border-radius: 10px;
+
+}
+
+.contact-btn{
+    background-color: #fff;
+    border: solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #fff ;
+}
+.contact-btn{
+    background-color: #110f0f;
+    border: solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;   
+}
+.logo-text{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.s1{
+    box-sizing: border-box;
+    max-width: 100vw;
+    height: auto;
+    padding-top: 0;
+    margin: 10px     auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+.og1{
+    align-items: center;
+    background-color: hsl(213, 22%, 90%); ;
+}
+.ciwan{
+    background-color: #ffffff;
+    color: #0004ff;
+}
+.og2{
+    align-items: center;
+    background-color: hsl(213, 22%, 90%);  
+}
+.og3{
+    align-items: center;
+    background-color: hsl(213, 22%, 90%); ;
+
+}
+h2{
+    color: #6200ff;
+}
+.text{
+    color: #6200ff;
+}
+.text2{
+    color: #6200ff;
+}
+.text3{
+    color: #6200ff;
+}
+.logo{
+    color: #007bff;
+}
+.hor{
+    color: #08be63;
+}
