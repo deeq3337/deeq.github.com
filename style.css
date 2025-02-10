@@ -63,12 +63,15 @@ button:hover {
 
 .header{
 background-color: aliceblue;
-    border: #1771d1;
+    border: 2px solid #1771d1;
+    border-radius: 20px;
    max-width: 90vw;
    margin: 10px   auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    padding: 10px;
+
  
     
 }    
@@ -96,9 +99,17 @@ nav ul li a{
 .logo{
    border: #1771d1;
     flex-wrap: wrap;
-    flex-basis: 30%;
-   
+    flex-basis: 100%;
 
+}
+.qor h1{
+    font-size: 3rem;
+    color: #001aff;
+    justify-content: center;
+    text-align: center;
+}
+.logo img{
+    border-radius: 20px;
 }
 nav ul li a:hover{
     background-color: #e0c9c9;
@@ -171,3 +182,193 @@ h2{
 .hor{
     color: #08be63;
 }
+.footer{
+    background-color: rgb(221, 234, 245);
+    height: fit-content;
+justify-content: space-around;
+display: flex;
+font-size: 1rem;
+padding: 20px;
+border-radius: 20px;
+}
+.contact{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.face{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;   
+}
+.what{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;    
+}
+
+    
+
+.santuuqa-guud{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #4f9672;
+    height: fit-content;
+
+ margin: 10px    auto;
+ width: 90vw;
+    
+    
+
+}
+.santuuqa-guud h1{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.line2{
+    padding: 20px;
+    color:#fff;
+    border: 2px      solid white;
+margin: 20px;
+   
+}
+.xiriir{
+    padding: 20px;
+    border: 2px      solid white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.2rem;
+background-color: #4f9672;
+
+
+
+}
+.ciwaano{
+    background-color: #abdfc5;
+}
+.xiriir h4{
+    color: #ffffff;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    padding: 10px;
+    margin: 20px;
+    gap: 10px;
+
+
+}
+.l3{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    padding: 10px;
+    margin: 20px;
+    gap: 10px;
+   
+}
+.l5{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    padding: 10px;
+    margin: 20px;
+    gap: 10px;   
+}
+.l2{
+    background-color: #f5e7e7;
+    width: fit-content;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+    border-radius: 30px;
+    justify-content: center;
+    color: #1900fa;
+    font-size: 1.5rem;
+    padding: 15px;
+  
+    
+}
+.l2 H2{
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid blue;
+    border-radius: 25px;
+  
+}
+.l1 img{
+    border: 2px solid blue;
+    border-radius: 30px;   
+      
+}
+.l3 img{
+    border: 2px solid blue;
+    border-radius: 30px;   
+}
+.l4 h2{
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid blue;
+    border-radius: 25px;   
+}
+.l4{
+    background-color: #f5e7e7;
+    width: fit-content;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+    border-radius: 30px;
+    justify-content: center;
+    color: #1900fa;
+    font-size: 1.5rem;
+    padding: 15px;  
+}
+.l5 img{
+    border: 2px solid blue;
+    border-radius: 30px;   
+}  
+.l6{
+    background-color: #f5e7e7;
+    width: fit-content;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+    border-radius: 30px;
+    justify-content: center;
+    color: #1900fa;
+    font-size: 1.5rem;
+    padding: 15px;   
+}
+.l6 h2{
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid blue;
+    border-radius: 25px;    
+}
+.head{
+    background-color: #f5e7e7;
+    border: 2px solid blue;
+    border-radius: 20px; 
+    display: flex;
+    max-width: 90vw;
+    margin: 10px      auto;
+    justify-content: space-between;
+}
+.magac{
+    margin: 3px;
+    justify-content: center;
+    font-size: 6rem; 
+    flex-wrap: wrap;
+    
+    color: rgb(47, 0, 255)
+    
+}
+.head nav{
+    padding: 3px;
+}
+
+
+
