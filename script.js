@@ -1915,7 +1915,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 gradePoint: 'C'
             }
         },
-"196": { 
+"200": { 
             name: "xareed cabdulahi cabdi", 
             course1: {
                 attendance: 10,
