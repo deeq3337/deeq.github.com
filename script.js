@@ -1999,7 +1999,28 @@ document.addEventListener('DOMContentLoaded', function() {
                 gradePoint: 'A+'
             }
         },
-// ... more student data
+"10": { 
+            name: "Abdifatah muhumed mukhtar", 
+            course1: {
+                attendance: 10,
+                assignment: 10,
+                midExam: 6,
+                finalExam: 10,
+                total: 36,
+                given: 5,
+                   
+                gradePoint: 'D'
+            },
+            course2: {
+                attendance:  10,
+                assignment:  10,
+                midExam:  7,
+                finalExam:  30,
+                total: 57,
+                given: 5,
+                gradePoint: 'C+'
+            }
+        },
     };
 
     const searchButton = document.getElementById('searchButton');
