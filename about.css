@@ -1,0 +1,46 @@
+/* about.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center; /* Center the boxes */
+    gap: 20px; /* Space between boxes */
+    max-width: 900px; /* Limit container width */
+    padding: 20px;
+}
+
+.about-box {
+    background-color: white;
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Adjust as needed */
+    text-align: center; /* Center text within the box */
+}
+
+.about-box h2 {
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.about-box p {
+    margin: 0;
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Responsive design (example) */
+@media (max-width: 768px) {
+    .about-box {
+        width: 90%; /* Full width on smaller screens */
+        margin-bottom: 20px;
+    }
+}

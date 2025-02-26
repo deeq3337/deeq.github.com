@@ -1,424 +1,106 @@
-
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-.container {
-   margin: 50px auto;
-    box-sizing: border-box;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
-   max-width: fit-content;
-   text-align: center;
-   justify-content: center;
-   
+header {
+    background-color: #1f63b1;
+    color: white;
+    padding: 10px 0;
 }
 
-h1 {
-    margin-bottom: 20px;
-    font-size: 24px;
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-input[type="text"] {
+.header-image img {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    max-height: 200px;
+    object-fit: cover;
+  
 }
 
-button {
+.college-logo img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #444;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#studentId {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#searchButton {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #4CAF50;
+    color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
-}
-
-.result-container {
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f5efef;
-    display: none;
-}
-.container h1{
-    color: #ffffff;
-    background-color: #1771d1;;
-    
-}
-
-.header{
-background-color: aliceblue;
-    border: 2px solid #1771d1;
-    border-radius: 20px;
-   max-width: 90vw;
-   margin: 10px   auto;
+.results-container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 10px;
-
- 
-    
-}    
-    
-
-nav{ 
-    
-    flex-basis: 40%;
-    
-}
-nav ul{
-    display: flex;
-    list-style-type: none;
-    text-decoration: none;
-  
-}
-nav ul li a{
-    text-decoration: none;
-    color: rgb(42, 63, 253);
-    font-size: 1.3rem;
-    padding: 15px;
-    margin-right: 15px;
-}
-.logo{
-   border: #1771d1;
-    flex-wrap: wrap;
-    flex-basis: 20%;
-
-}
-.qor h1{
-    font-size: 3rem;
-    color: #001aff;
-    justify-content: center;
-    text-align: center;
-}
-.logo img{
-    border-radius: 20px;
-}
-nav ul li a:hover{
-    background-color: #e0c9c9;
-    color: black;
-    border: #1771d1;
-    border-radius: 10px;
-
-}
-
-.contact-btn{
-    background-color: #fff;
-    border: solid rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    color: #fff ;
-}
-.contact-btn{
-    background-color: #110f0f;
-    border: solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px;   
-}
-.logo-text{
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.s1{
-    box-sizing: border-box;
-    max-width: 100vw;
-    height: auto;
-    padding-top: 0;
-    margin: 10px     auto;
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    gap: 15px;
-}
-.og1{
-    align-items: center;
-    background-color: hsl(213, 22%, 90%); 
-    border-radius: 20px; 
-    padding: 30px;
-}
-
-.ciwan{
-    background-color: #ffffff;
-    color: #0004ff;
-    border-radius: 20px; 
-    
-}
-.og2{
-    align-items: center;
-    background-color: hsl(213, 22%, 90%); 
-    border-radius: 20px; 
-    padding: 10px;
-}
-.og3{
-    align-items: center;
-    background-color: hsl(213, 22%, 90%); 
-    border-radius: 20px; 
-    padding: 10px;
-}
-
-
-h2{
-    color: #6200ff;
-}
-.text{
-    color: #6200ff;
-}
-.text2{
-    color: #6200ff;
-}
-.text3{
-    color: #6200ff;
-}
-.logo{
-    color: #007bff;
-}
-.hor{
-    color: #08be63;
-}
-.footer{
-    background-color: rgb(221, 234, 245);
-    height: fit-content;
-justify-content: space-around;
-display: flex;
-font-size: 1rem;
-padding: 20px;
-border-radius: 20px;
-}
-.contact{
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 10px;
-
-}
-.face{
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 10px;   
-}
-.what{
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 10px;    
-}
-
-    
-
-.santuuqa-guud{
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    background-color: #4f9672;
-    height: fit-content;
-
- margin: 10px    auto;
- width: 90vw;
-    
-    
-
 }
-.santuuqa-guud h1{
-    color: #fff;
-    font-size: 2rem;
-    font-weight: bold;
-}
-.line2{
+
+.course-results {
+    width: 45%;
+    background-color: white;
+    border: 1px solid #ddd;
     padding: 20px;
-    color:#fff;
-    border: 2px      solid white;
-margin: 20px;
-   
-}
-.xiriir{
-    padding: 20px;
-    border: 2px      solid white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 1.2rem;
-background-color: #4f9672;
-
-
-
-}
-.ciwaano{
-    background-color: #abdfc5;
-}
-.xiriir h4{
-    color: #ffffff;
-}
-.info{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 90vw;
-    padding: 10px;
-    margin: 20px;
-    gap: 10px;
-
-
-}
-.l3{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 90vw;
-    padding: 10px;
-    margin: 20px;
-    gap: 10px;
-   
-}
-.l5{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 90vw;
-    padding: 10px;
-    margin: 20px;
-    gap: 10px;   
-}
-.l2{
-    background-color: #f5e7e7;
-    width: fit-content;
-    flex-wrap: wrap;
-    border: 2px solid blue;
-    border-radius: 30px;
-    justify-content: center;
-    color: #1900fa;
-    font-size: 1.5rem;
-    padding: 15px;
-  
-    
-}
-.l2 H2{
-    justify-content: center;
-    text-align: center;
-    background-color: #ffffff;
-    border: 2px solid blue;
-    border-radius: 25px;
-  
-}
-.l1 img{
-    border: 2px solid blue;
-    border-radius: 30px;   
-      
-}
-.l3 img{
-    border: 2px solid blue;
-    border-radius: 30px;   
-}
-.l4 h2{
-    justify-content: center;
-    text-align: center;
-    background-color: #ffffff;
-    border: 2px solid blue;
-    border-radius: 25px;   
-}
-.l4{
-    background-color: #f5e7e7;
-    width: fit-content;
-    flex-wrap: wrap;
-    border: 2px solid blue;
-    border-radius: 30px;
-    justify-content: center;
-    color: #1900fa;
-    font-size: 1.5rem;
-    padding: 15px;  
-}
-.l5 img{
-    border: 2px solid blue;
-    border-radius: 30px;   
-}  
-.l6{
-    background-color: #f5e7e7;
-    width: fit-content;
-    flex-wrap: wrap;
-    border: 2px solid blue;
-    border-radius: 30px;
-    justify-content: center;
-    color: #1900fa;
-    font-size: 1.5rem;
-    padding: 15px;   
-}
-.l6 h2{
-    justify-content: center;
-    text-align: center;
-    background-color: #ffffff;
-    border: 2px solid blue;
-    border-radius: 25px;    
-}
-.head{
-    background-color: #f5e7e7;
-    border: 2px solid blue;
-    border-radius: 20px; 
-    display: flex;
-    max-width: 100vw;
-    margin: 10px      auto;
-    justify-content: space-evenly;
-    
-
-}
-.magac{
-    margin: 3px;
-    font-size: 6rem; 
-    flex-wrap: wrap;
-    display: flex;
-    flex: 20%;
-    
-    color: rgb(47, 0, 255)
-    
-}
-.snav{
-    display: flex;
-    justify-content: center;
-    margin-right: 15px;
-    flex-wrap: wrap;
-    flex-basis: 80%;
-    padding: 15px;
-    border-radius: 5px;
-
-}
-.head nav{
-    padding: 3px;
-}
-.headerka{
-    background-color: #c6c7ff;
-    border-radius: 20px;
-    height: fit-content;
-
-}
-.rndek{
-    padding: 10px;
-    margin: 10px;
-    color: #ffffff;
-    font-size: 1.5rem;
-}
-.nav{
-    margin-right: 20px;
-    padding-bottom: 10px;
-}
-.navyada{
-    margin-right: 10px;
+    margin-bottom: 20px;
     box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    width: fit-content;
-
 }
 
+.course-results ul {
+    list-style: none;
+    padding: 0;
+}
 
+course-results ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
 
+footer {
+    background-color: #1f63b1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
