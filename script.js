@@ -1222,7 +1222,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 gradePoint: 'C-'
             }
         },
-"100": { 
+"1001": { 
             name: "miski kahin abdirashid", 
             course1: {
                 attendance: 10,
