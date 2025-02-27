@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             course2: {
                 attendance: 10,
-                assignment: 100,
+                assignment: 10,
                 midExam: 13,
                 finalExam: 51,
                 total: 84,
@@ -1688,12 +1688,12 @@ document.addEventListener('DOMContentLoaded', function() {
             name: "sahro mahad sahal", 
             course1: {
                 attendance: 10,
-                assignment: 0,
+                assignment: 10,
                 midExam: 8,
                 finalExam: 18,
-                total: 36,
+                total: 46,
                 given: 5,
-                gradePoint: 'D'
+                gradePoint: 'C'
             },
             course2: {
                 attendance: 10,
