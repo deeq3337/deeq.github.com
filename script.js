@@ -955,9 +955,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 assignment: 10,
                 midExam: 12,
                 finalExam: 20,
-                total: 52,
+                total: 59,
                 given: 5,
-                gradePoint: 'C'
+                gradePoint: 'B-'
             },
             course2: {
                 attendance: 10,
