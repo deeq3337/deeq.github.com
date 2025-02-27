@@ -1714,7 +1714,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 finalExam: 30,
                 total: 72,
                 given: 5,
-                gradePoint: 'B+'
+                gradePoint: 'A-'
             },
             course2: {
                 attendance: 10,
